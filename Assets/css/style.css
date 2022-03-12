@@ -1,0 +1,54 @@
+couleurs {
+    color: #d35649 #98a5a5 #509bd7 #1f1f1f #444 #575a89 #eee
+}
+
+:root {
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+
+header,
+.bgOrange .partOrange {
+    background-color: var(--primary-color);
+}
+
+
+/* ABOUT PAGE */
+
+.orangeTitle {
+    color: #d35649;
+}
+
+
+/* INDEX PAGE */
+
+.bg-image {
+    background-image: url(../Images/group-1.1.jpg);
+    height: 60vh;
+    background-size: cover;
+}
+
+.partGrey {
+    background-color: var(--primary-gray);
+}
+
+.partBlue {
+    background-color: var(--primary-blue);
+}
+
+
+/* SEARCH PAGE */
+
+.bgGrey {
+    background-color: var(--light-gray);
+}
+
+.bgItem {
+    background: var(--primary-color);
+    overflow: hidden;
+}
