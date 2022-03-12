@@ -1,7 +1,3 @@
-couleurs {
-    color: #d35649 #98a5a5 #509bd7 #1f1f1f #444 #575a89 #eee
-}
-
 :root {
     --primary-color: #d35649;
     --primary-gray: #98a5a5;
@@ -13,7 +9,8 @@ couleurs {
 }
 
 header,
-.bgOrange .partOrange {
+.bgOrange,
+.partOrange {
     background-color: var(--primary-color);
 }
 
@@ -21,7 +18,7 @@ header,
 /* ABOUT PAGE */
 
 .orangeTitle {
-    color: #d35649;
+    color: var(--primary-color);
 }
 
 
@@ -49,6 +46,6 @@ header,
 }
 
 .bgItem {
-    background: var(--primary-color);
+    /* background: var(--primary-color); */
     overflow: hidden;
 }

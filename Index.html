@@ -8,264 +8,265 @@
     <title>INDEX</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./Assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./Assets/css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
-    />
 </head>
 
 <body>
 
-    <header>
+    <!-- NAVBAR -->
+
+    <body>
+        <header>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <div class="col-lg-6 text-lg-start text-center">
+                        <a class="navbar-brand text-white fs-2 " href="#">
+                            <img src="./Assets/Images/group-2.svg" alt="" width="100" class="d-inline-block align-text-top text-white">[Events]
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <ul class="list-inline text-lg-end align-items-center">
+                            <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href="./search.html"><i class="fa-solid fa-magnifying-glass"></i>Search</a> </li>
+                            <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href="./about.html"><i class="fa-solid fa-user-tie"></i>About</a> </li>
+                            <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href="#"><i class="fa-solid fa-rss"></i>Blog</a> </li>
+                            <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href="#"><i class="fa-solid fa-bars"></i>More</a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
         <!-- NAVBAR -->
 
-        <body>
-            <header>
-                <nav class="navbar">
-                    <div class="container-fluid">
-                        <div class="col-lg-6 text-lg-start text-center">
-                            <a class="navbar-brand text-white fs-2 " href="#">
-                                <img src="./Assets/Images/group-2.svg" alt="" width="100" class="d-inline-block align-text-top text-white">[Events]
-                            </a>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-inline text-lg-end align-items-center">
-                                <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href=""><i class="fa-solid fa-magnifying-glass"></i>Search</a> </li>
-                                <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href=""><i class="fa-solid fa-user-tie"></i>About</a> </li>
-                                <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href=""><i class="fa-solid fa-rss"></i>Blog</a> </li>
-                                <li class="list-inline-item px-3"> <a class="text-white text-decoration-none" href=""><i class="fa-solid fa-bars"></i>More</a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            <!-- NAVBAR -->
-
-            <main>
-                <!-- Background image -->
-                <div id="intro" class="bg-image shadow-2-strong">
-                    <div class="container d-flex align-items-center justify-content-center text-center h-75">
-                        <div class="row  ">
-                            <h4 class="text-white mb-3 fw-bolder">[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA</h4>
-                            <div class="text-center ">
-                                <h6>SEARCH EVENTS NEARBY</h6>
-                                <input type="text " id="uname " name="name " placeholder="Insert your location here " size="70 ">
+        <main>
+            <!-- Background image -->
+            <div id="intro" class="bg-image shadow-2-strong">
+                <div class="container d-flex align-items-center justify-content-center text-center h-75">
+                    <div class="row  ">
+                        <h4 class="text-white mb-3 fw-bolder">[EVENTS]... YOUR GATEWAY TO CONNECT WITH EVENTS AROUND YOUR AREA</h4>
+                        <div class="text-center ">
+                            <h6>SEARCH EVENTS NEARBY</h6>
+                            <input type="text " id="uname " name="name " placeholder="Insert your location here " size="70 ">
+                            <a href="./Search.html">
                                 <button type="button " class="btn btn-warning text-white fw-bold bgOrange ">SEARCH</button>
-                            </div>
-                            <div>
-                                <a class="btn btn-light btn-lg m-2 text-black fw-bold fs-6  " href=" " target="_blank " role="button ">How It Works</a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <!-- Background image -->
-                <div class="row text-center py-5">
-                    <h3 class="orangeTitle fw-bold">[Events] works in four simple steps.</h3>
-                </div>
-                <!-- Guide -->
-                <section class="pb-5 d-none d-lg-block">
-                    <div class="container ">
-                        <div class="row text-center">
-                            <div class="col-lg-6 pt-2">
-                                <i class="fa-solid fa-magnifying-glass-location fa-2x pb-3"></i>
-                                <h5 class="pb-3 fw-bold">1-Locate</h5>
-                                <p class="fs-6 fw-normal pb-5">It's simple, on [Events] homepage, enter the name of the location you want to spend some good quality time with people and click on search.
-                                </p>
-                            </div>
-                            <div class="col-lg-6 pt-2">
-                                <i class="fa-solid fa-check-double fa-2x pb-3"></i>
-                                <h5 class="pb-3 fw-bold">2-Confirm or create</h5>
-                                <p class="fs-6 fw-normal">Go to check the events nearby the location you searched for and apply for any [Events] available. Every [gathering] has a subject, that you can search for too! If no [Events] are available on the location you selected,
-                                    you can create and share your event.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="row text-center">
-                            <div class="col-lg-6 pt-4">
-                                <i class="fa-solid fa-map-location fa-2x pb-3"></i>
-                                <h5 class="pb-3 fw-bold">3-Go</h5>
-                                <p class="fs-6 fw-normal">Select the [Events], wait for the scheduled day and go! Be prepared to meet new people, create new connections and have a great time!
-                                </p>
-                            </div>
-                            <div class="col-lg-6 pt-4">
-                                <i class="fa-solid fa-users fa-2x pb-3 "></i>
-                                <h5 class="pb-3 fw-bold">4-Have a good time</h5>
-                                <p class="fs-6 fw-normal">Once you are at the [Events] location, look for the host, enjoy and have fun!
-                                </p>
-
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Guide -->
-
-                <!-- Partie orange -->
-                <section>
-                    <div class="container-fluid partOrange">
-                        <div class="pt-5 pb-5 ">
-                            <div class="row">
-                                <div class="col-sm-6 p-3">
-                                    <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
-                                    <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
-                                    <a class="btn btn-light rounded-0" href="search.html" role="button" style="color: #d35649;">Find a [Events]</a>
-                                </div>
-                                <div class="col text-end pt-2 text-white" style="width: 100%;">
-                                    <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre" style="border-radius: 30% 30%;">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Partie orange -->
-                <!-- Partie Gris -->
-                <section>
-                    <div class="container-fluid partGrey">
-                        <div class="pt-5 pb-5 ">
-                            <div class="row">
-                                <div class="col-sm-6 p-3">
-                                    <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
-                                    <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
-                                    <a class="btn btn-light rounded-0" href="search.html" role="button" style="color: #98a5a5;">Find a [Events]</a>
-                                </div>
-                                <div class="col text-end pt-2 text-white" style="width: 100%;">
-                                    <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Partie Gris -->
-                <!-- Partie Bleue -->
-                <section>
-                    <div class="container-fluid partBlue">
-                        <div class="pt-5 pb-5 ">
-                            <div class="row">
-                                <div class="col-sm-6 p-3">
-                                    <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
-                                    <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
-                                </div>
-                                <div class="col text-end pt-2 text-white" style="width: 100%;">
-                                    <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!-- Partie Bleue -->
-
-            </main>
-
-
-
-
-
-
-            <!-- Bas de page -->
-            <footer>
-                <section style="background-color: #1f1f1f; ">
-                    <footer class="mx-auto ">
-                        <!-- ********************************************************FOOTER DISPLAY NONE SUR MOBILE****************************************************** -->
-                        <section id="footer " class="footer-top text-white d-none d-lg-block ">
-                            <div class="container ">
-                                <div class="row align-items-center text-center mx-auto fs- fw-bold py-5 ">
-                                    <div class="col border-top border-bottom ms-5 ">
-                                        <ul class="list-inline fs-5 ">
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">HOME</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./search.html ">SEARCH</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./about.html ">ABOUT US</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">ADVERTISE</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="col-1 ">
-                                        <a href="./search.html "><img class="img-fluid rounded-circle border border-light nav-links " src="./Assets/Icones/mapsnavbar_icon_blanc.svg " alt=" "></a>
-                                    </div>
-
-                                    <div class="col border-top border-bottom me-5 ">
-                                        <ul class="list-inline fs-5 ">
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">FACEBOOK</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">TWITTER</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">INSTAGRAM</a>
-                                            </li>
-                                            <li class="list-inline-item px-2 ">
-                                                <a class="text-decoration-none text-white nav-links " href="./index.html ">BLOG</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-
-                        <div class="container-fluid footer-top text-center text-white d-none d-lg-block px-3 py-5 ">
-                            <div class="row ">
-                                <div class="row ">
-                                    <div class="col-3 offset-1 ">
-                                        <h5 class="pb-3 fw-bold ">Subscribe</h5>
-                                        <div class="row ">
-                                            <input class="col form-control dark-bg border-end-0 w-auto " type="email " placeholder="Insert your e-mail here " name="email " id=" ">
-                                            <button class="text-white fw-bold rounded-3 btn btn-secondary w-25 " type="submit ">Send</button>
-                                        </div>
-
-                                    </div>
-                                    <div class="col-2 offset-1 footer-col ">
-                                        <h5 class="pb-3 fw-bold ">Contact</h5>
-                                        <p>Have a question or a suggestion?</p>
-                                        <a href="mailto:contact@events.com?subject=Ask Me Anything " class=" orange text-decoration-none ">contact@events.com</a>
-                                    </div>
-                                    <div class="col-4 offset-1 footer-col ">
-                                        <h5 class="pb-3 fw-bold ">About</h5>
-                                        <p>[Events] is an online platform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="./about.html " class="orange text-decoration-none ">learn more.</a></p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- ********************************************************FOOTER DISPLAY NONE SUR MOBILE FIN****************************************************** -->
-
-                        <!-- Section: Social media -->
-                        <section>
-                            <div class="row " style="background-color: #444; ">
-                                <div class="col-lg-6 text-start ">
-                                    <!-- Facebook -->
-                                    <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-facebook-f text-white fs-6 "></i
-                    ></a>
-
-                                    <!-- Twitter -->
-                                    <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-twitter text-white fs-6 "></i
-                    ></a>
-                                    <!-- Instagram -->
-                                    <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-instagram text-white fs-6 "></i
-                    ></a>
-                                    <!-- Tumbler -->
-                                    <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fa-brands fa-tumblr text-white fs-6 "></i>
                             </a>
-                                    <!-- Linkedin -->
-                                    <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-linkedin text-white fs-6 "></i
-                    ></a>
-                                </div>
-                                <!-- Section: Social media -->
-                                <!-- Copyright -->
-                                <div class=" col-lg-6 text-end text-white p-3 fs-6 ">
-                                    © 2020[Events],Inc All rights reserved
-                                </div>
-                                <!-- Copyright -->
+
+                        </div>
+                        <div>
+                            <a class="btn btn-light btn-lg m-2 text-black fw-bold fs-6  " href=" " target="_blank " role="button ">How It Works</a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Background image -->
+            <div class="row text-center py-5">
+                <h3 class="orangeTitle fw-bold">[Events] works in four simple steps.</h3>
+            </div>
+            <!-- Guide -->
+            <section class="pb-5 d-none d-lg-block">
+                <div class="container ">
+                    <div class="row text-center">
+                        <div class="col-lg-6 pt-2">
+                            <i class="fa-solid fa-magnifying-glass-location fa-2x pb-3"></i>
+                            <h5 class="pb-3 fw-bold">1-Locate</h5>
+                            <p class="fs-6 fw-normal pb-5">It's simple, on [Events] homepage, enter the name of the location you want to spend some good quality time with people and click on search.
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pt-2">
+                            <i class="fa-solid fa-check-double fa-2x pb-3"></i>
+                            <h5 class="pb-3 fw-bold">2-Confirm or create</h5>
+                            <p class="fs-6 fw-normal">Go to check the events nearby the location you searched for and apply for any [Events] available. Every [gathering] has a subject, that you can search for too! If no [Events] are available on the location you selected, you
+                                can create and share your event.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row text-center">
+                        <div class="col-lg-6 pt-4">
+                            <i class="fa-solid fa-map-location fa-2x pb-3"></i>
+                            <h5 class="pb-3 fw-bold">3-Go</h5>
+                            <p class="fs-6 fw-normal">Select the [Events], wait for the scheduled day and go! Be prepared to meet new people, create new connections and have a great time!
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pt-4">
+                            <i class="fa-solid fa-users fa-2x pb-3 "></i>
+                            <h5 class="pb-3 fw-bold">4-Have a good time</h5>
+                            <p class="fs-6 fw-normal">Once you are at the [Events] location, look for the host, enjoy and have fun!
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Guide -->
+
+            <!-- Partie orange -->
+            <section>
+                <div class="container-fluid partOrange">
+                    <div class="pt-5 pb-5 ">
+                        <div class="row">
+                            <div class="col-sm-6 p-3">
+                                <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
+                                <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
+                                <a class="btn btn-light rounded-0" href="search.html" role="button" style="color: #d35649;">Find a [Events]</a>
                             </div>
-                        </section>
+                            <div class="col text-end pt-2 text-white" style="width: 100%;">
+                                <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre" style="border-radius: 30% 30%;">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Partie orange -->
+            <!-- Partie Gris -->
+            <section>
+                <div class="container-fluid partGrey">
+                    <div class="pt-5 pb-5 ">
+                        <div class="row">
+                            <div class="col-sm-6 p-3">
+                                <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
+                                <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
+                                <a class="btn btn-light rounded-0" href="search.html" role="button" style="color: #98a5a5;">Find a [Events]</a>
+                            </div>
+                            <div class="col text-end pt-2 text-white" style="width: 100%;">
+                                <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Partie Gris -->
+            <!-- Partie Bleue -->
+            <section>
+                <div class="container-fluid partBlue">
+                    <div class="pt-5 pb-5 ">
+                        <div class="row">
+                            <div class="col-sm-6 p-3">
+                                <h5 class="align-item-center pb-3 text-white">[Events] near you</h5>
+                                <p class="text-white fs-6 pb-4">Every month a new you might find [Events] near you and enjoy the company with people whom you can share mutual interests</p>
+                            </div>
+                            <div class="col text-end pt-2 text-white" style="width: 100%;">
+                                <img src="./assets/Images/group-2.jpg" width="250" alt="Cinque Terre">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Partie Bleue -->
 
-                    </footer>
+        </main>
 
-        </body>
+
+
+
+
+
+        <!-- Bas de page -->
+        <footer>
+            <section style="background-color: #1f1f1f; ">
+                <footer class="mx-auto ">
+                    <!-- ********************************************************FOOTER DISPLAY NONE SUR MOBILE****************************************************** -->
+                    <section id="footer " class="footer-top text-white d-none d-lg-block ">
+                        <div class="container ">
+                            <div class="row align-items-center text-center mx-auto fs- fw-bold py-5 ">
+                                <div class="col border-top border-bottom ms-5 ">
+                                    <ul class="list-inline fs-5 ">
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">HOME</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./search.html ">SEARCH</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./about.html ">ABOUT US</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">ADVERTISE</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="col-1 ">
+                                    <a href="./search.html "><img class="img-fluid rounded-circle border border-light nav-links " src="./Assets/Icones/mapsnavbar_icon_blanc.svg " alt=" "></a>
+                                </div>
+
+                                <div class="col border-top border-bottom me-5 ">
+                                    <ul class="list-inline fs-5 ">
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">FACEBOOK</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">TWITTER</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">INSTAGRAM</a>
+                                        </li>
+                                        <li class="list-inline-item px-2 ">
+                                            <a class="text-decoration-none text-white nav-links " href="./index.html ">BLOG</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <div class="container-fluid footer-top text-center text-white d-none d-lg-block px-3 py-5 ">
+                        <div class="row ">
+                            <div class="row ">
+                                <div class="col-3 offset-1 ">
+                                    <h5 class="pb-3 fw-bold ">Subscribe</h5>
+                                    <div class="row ">
+                                        <input class="col form-control dark-bg border-end-0 w-auto " type="email " placeholder="Insert your e-mail here " name="email " id=" ">
+                                        <button class="text-white fw-bold rounded-3 btn btn-secondary w-25 " type="submit ">Send</button>
+                                    </div>
+
+                                </div>
+                                <div class="col-2 offset-1 footer-col ">
+                                    <h5 class="pb-3 fw-bold ">Contact</h5>
+                                    <p>Have a question or a suggestion?</p>
+                                    <a href="mailto:contact@events.com?subject=Ask Me Anything " class=" orange text-decoration-none ">contact@events.com</a>
+                                </div>
+                                <div class="col-4 offset-1 footer-col ">
+                                    <h5 class="pb-3 fw-bold ">About</h5>
+                                    <p>[Events] is an online platform that works to improve and increase social life conections, when this nightmare that we are curently living in is over <a href="./about.html " class="orange text-decoration-none ">learn more.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ********************************************************FOOTER DISPLAY NONE SUR MOBILE FIN****************************************************** -->
+
+                    <!-- Section: Social media -->
+                    <section>
+                        <div class="row " style="background-color: #444; ">
+                            <div class="col-lg-6 text-start ">
+                                <!-- Facebook -->
+                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-facebook-f text-white fs-6 "></i
+                    ></a>
+
+                                <!-- Twitter -->
+                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-twitter text-white fs-6 "></i
+                    ></a>
+                                <!-- Instagram -->
+                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-instagram text-white fs-6 "></i
+                    ></a>
+                                <!-- Tumbler -->
+                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fa-brands fa-tumblr text-white fs-6 "></i>
+                            </a>
+                                <!-- Linkedin -->
+                                <a class="btn btn-link btn-floating btn-lg text-dark m-1 " href="#! " role="button " data-mdb-ripple-color="dark "><i class="fab fa-linkedin text-white fs-6 "></i
+                    ></a>
+                            </div>
+                            <!-- Section: Social media -->
+                            <!-- Copyright -->
+                            <div class=" col-lg-6 text-end text-white p-3 fs-6 ">
+                                © 2020[Events],Inc All rights reserved
+                            </div>
+                            <!-- Copyright -->
+                        </div>
+                    </section>
+
+                </footer>
+
+    </body>
 
 </html>
